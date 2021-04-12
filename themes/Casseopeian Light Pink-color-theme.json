@@ -242,7 +242,7 @@
     {
       "scope": ["constant.other.php"],
       "settings": {
-        "foreground": "#FF85A1"
+        "foreground": "#ff85a2fd"
       }
     },
     {
