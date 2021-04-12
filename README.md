@@ -4,7 +4,7 @@
 
 ₍˶ˆ꒳ˆ˶₎✼\*ﾟ ✿
 
-♡♡♡ Pink code theme for VS Code, so you can write the cutest code ♡♡♡
+♡ ♡ ♡ Pink code theme for VS Code, so you can write the cutest code ♡ ♡ ♡
 
 .・。.・゜ ✭・.・✫・゜・。.
 
