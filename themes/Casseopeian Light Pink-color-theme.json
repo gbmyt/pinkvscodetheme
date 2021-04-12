@@ -215,7 +215,7 @@
         "storage.modifier"
       ],
       "settings": {
-        "foreground": "#FFE8AD"
+        "foreground": "#e1abfc"
       }
     },
     {
@@ -301,11 +301,11 @@
         "punctuation.definition.binding-pattern.object.js"
       ],
       "settings": {
-        "foreground": "#FFE8AD"
+        "foreground": "#F8E0E0"
       }
     },
     {
-      "scope": [z
+      "scope": [
         "punctuation.definition.string.begin.js",
         "punctuation.definition.string.end.js"
       ],
