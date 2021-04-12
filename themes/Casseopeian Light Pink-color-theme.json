@@ -215,7 +215,7 @@
         "storage.modifier"
       ],
       "settings": {
-        "foreground": "#FF85A1"
+        "foreground": "#FFE8AD"
       }
     },
     {
@@ -298,12 +298,19 @@
         "punctuation.definition.entity.css",
         "keyword.operator.assignment.js",
         "punctuation.separator.comma.js",
-        "punctuation.definition.string.begin.js",
-        "punctuation.definition.string.end.js",
         "punctuation.definition.binding-pattern.object.js"
       ],
       "settings": {
-        "foreground": "#FF7096"
+        "foreground": "#FFE8AD"
+      }
+    },
+    {
+      "scope": [z
+        "punctuation.definition.string.begin.js",
+        "punctuation.definition.string.end.js"
+      ],
+      "settings": {
+        "foreground": "#FF99AC"
       }
     },
     {
@@ -328,7 +335,7 @@
         "comment.block.html"
       ],
       "settings": {
-        "foreground": "#6D6F7C"
+        "foreground": "#6d6f7cd2"
       }
     },
     {
@@ -397,7 +404,7 @@
         "source.sass keyword.control"
       ],
       "settings": {
-        "foreground": "#ffffff"
+        "foreground": "#f8e0e0"
       }
     },
     {
@@ -426,7 +433,7 @@
         "punctuation.separator.key-value.html"
       ],
       "settings": {
-        "foreground": "#FF85A1"
+        "foreground": "#FFE8AD"
       }
     },
     {
@@ -451,7 +458,7 @@
         "string.unquoted.label.js"
       ],
       "settings": {
-        "foreground": "#FF0A54",
+        "foreground": "#FFE8AD",
         "fontStyle": ""
       }
     },
@@ -487,7 +494,7 @@
         "source.postcss support.type.property-name"
       ],
       "settings": {
-        "foreground": "#FF5C8A"
+        "foreground": "#ff99ac"
       }
     },
     {
@@ -514,7 +521,7 @@
     {
       "scope": ["entity.other.attribute-name", "support.function"],
       "settings": {
-        "foreground": "#FF85A1"
+        "foreground": "#ff99ac"
       }
     },
     {
@@ -531,7 +538,7 @@
         "meta.object-literal.key"
       ],
       "settings": {
-        "foreground": "#ff477e"
+        "foreground": "#ffe8ad"
       }
     },
     {
