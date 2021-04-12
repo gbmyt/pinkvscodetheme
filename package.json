@@ -4,6 +4,25 @@
   "description": "Light pink VS Code Theme",
   "version": "0.0.1",
   "publisher": "casseopeian",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/carnaluna/pinkvscodetheme"
+  },
+  "keywords": [
+    "theme",
+    "pink theme",
+    "cute theme",
+    "cute",
+    "kawaii",
+    "kawaii theme",
+    "pink",
+    "casseopeian",
+    "casseopeian pink",
+    "casseopeian pink theme",
+    "carnaluna pink theme",
+    "carnaluna pink",
+    "carnaluna"
+  ],
   "engines": {
     "vscode": "^1.55.0"
   },
