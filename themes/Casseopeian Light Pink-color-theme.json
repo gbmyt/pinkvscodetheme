@@ -219,7 +219,7 @@
         "storage.modifier"
       ],
       "settings": {
-        "foreground": "#e1abfc"
+        "foreground": "#575757c7"
       }
     },
     {
@@ -281,7 +281,7 @@
         "entity.name.tag.reference.scss"
       ],
       "settings": {
-        "foreground": "#a7a8afc6"
+        "foreground": "#3240ff57"
       }
     },
     {
@@ -408,7 +408,7 @@
         "source.sass keyword.control"
       ],
       "settings": {
-        "foreground": "#3240ff57"
+        "foreground": "#575757c7"
       }
     },
     {
