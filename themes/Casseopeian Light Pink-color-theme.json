@@ -73,7 +73,7 @@
     "gitDecoration.conflictingResourceForeground": "#FF85A1",
     "gitDecoration.deletedResourceForeground": "#FF99AC",
     "gitDecoration.ignoredResourceForeground": "#FF0A54",
-    "gitDecoration.modifiedResourceForeground": "#FF5C8A",
+    "gitDecoration.modifiedResourceForeground": "#575757c7",
     "gitDecoration.untrackedResourceForeground": "#FF85A1",
     "input.background": "#FF99AC",
     "input.border": "#ff0a534b",
