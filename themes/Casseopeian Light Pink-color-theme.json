@@ -22,7 +22,7 @@
     "diffEditor.removedTextBackground": "#FF99AC20",
     "dropdown.background": "#F7CAD0",
     "dropdown.border": "#F7CAD010",
-    "editor.background": "#fca6b141",
+    "editor.background": "#ffbdc8",
     "editor.findMatchBackground": "#F7CAD0",
     "editor.findMatchBorder": "#FF0A54",
     "editor.findMatchHighlightBackground": "#FF0A5493",
@@ -66,6 +66,7 @@
     "editorWidget.background": "#F7CAD0",
     "editorWidget.border": "#FF85A1",
     "editorWidget.resizeBorder": "#FF0A54",
+    "errorForeground": "#FF0A54",
     "extensionButton.prominentBackground": "#FF0A5490",
     "extensionButton.prominentHoverBackground": "#FF99AC",
     "focusBorder": "#F7CAD000",
@@ -75,9 +76,9 @@
     "gitDecoration.modifiedResourceForeground": "#FF5C8A",
     "gitDecoration.untrackedResourceForeground": "#FF85A1",
     "input.background": "#FF99AC",
-    "input.border": "#F7CAD010",
-    "input.foreground": "#FF7096",
-    "input.placeholderForeground": "#FF709660",
+    "input.border": "#ff0a534b",
+    "input.foreground": "#ffffffbd",
+    "input.placeholderForeground": "#ff0a539d",
     "inputOption.activeBackground": "#FF709630",
     "inputOption.activeBorder": "#FF709630",
     "inputValidation.errorBorder": "#FF99AC50",
@@ -121,7 +122,7 @@
     "panelTitle.activeBorder": "#FF0A54",
     "panelTitle.activeForeground": "#FF0A54",
     "panelTitle.inactiveForeground": "#fae0e4",
-    "peekView.border": "#00ff2a30",
+    "peekView.border": "#FF0A5450",
     "peekViewEditor.background": "#FF709605",
     "peekViewEditor.matchHighlightBackground": "#FF0A5450",
     "peekViewEditorGutter.background": "#FF709605",
@@ -165,7 +166,7 @@
     "statusBarItem.remoteForeground": "#F7CAD0",
     "tab.activeBackground": "#fbb1bd",
     "tab.activeBorder": "#FF0A54",
-    "tab.activeForeground": "#FAE0E4",
+    "tab.activeForeground": "#e2fae0",
     "tab.activeModifiedBorder": "#FF0A54",
     "tab.border": "#F7CAD0",
     "tab.inactiveBackground": "#FF0A5420",
@@ -202,7 +203,10 @@
     "titleBar.inactiveBackground": "#f9bec7",
     "titleBar.inactiveForeground": "#FF0A54",
     "tree.indentGuidesStroke": "#FBB1BD",
-    "widget.shadow": "#F7CAD030"
+    "widget.shadow": "#F7CAD030",
+    "welcomePage.background": "#ffbdc8",
+    "welcomePage.buttonBackground": "#ffb3bf",
+    "welcomePage.buttonHoverBackground": "#FBB1BD"
   },
   "tokenColors": [
     {
@@ -301,7 +305,7 @@
         "punctuation.definition.binding-pattern.object.js"
       ],
       "settings": {
-        "foreground": "#F8E0E0"
+        "foreground": "#e2f8e0"
       }
     },
     {
