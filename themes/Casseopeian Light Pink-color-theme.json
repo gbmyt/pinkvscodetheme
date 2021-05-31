@@ -8,7 +8,7 @@
     "activityBar.foreground": "#FF7096",
     "activityBarBadge.background": "#F9BEC7",
     "activityBarBadge.foreground": "#ff5c8a",
-    "badge.background": "#F7CAD030",
+    "badge.background": "#f37fb9",
     "badge.foreground": "#FF0A54",
     "breadcrumb.activeSelectionForeground": "#FF0A54",
     "breadcrumb.background": "#F7CAD0",
@@ -22,7 +22,7 @@
     "diffEditor.removedTextBackground": "#FF99AC20",
     "dropdown.background": "#F7CAD0",
     "dropdown.border": "#F7CAD010",
-    "editor.background": "#F7CAD0",
+    "editor.background": "#fca6b141",
     "editor.findMatchBackground": "#F7CAD0",
     "editor.findMatchBorder": "#FF0A54",
     "editor.findMatchHighlightBackground": "#FF0A5493",
@@ -134,8 +134,8 @@
     "progressBar.background": "#FF0A54",
     "scrollbar.shadow": "#F7CAD000",
     "scrollbarSlider.activeBackground": "#FF0A54cc",
-    "scrollbarSlider.background": "#fbb1bd",
-    "scrollbarSlider.hoverBackground": "#FF0A54ee",
+    "scrollbarSlider.background": "#e98898",
+    "scrollbarSlider.hoverBackground": "#e98898",
     "selection.background": "#FF0A54",
     "settings.checkboxBackground": "#F7CAD0",
     "settings.checkboxForeground": "#FF7096",
@@ -147,7 +147,7 @@
     "settings.numberInputForeground": "#FF7096",
     "settings.textInputBackground": "#F7CAD0",
     "settings.textInputForeground": "#FF7096",
-    "sideBar.background": "#F7CAD0",
+    "sideBar.background": "#fcb5c1",
     "sideBar.border": "#fbb1bd",
     "sideBar.foreground": "#ff5c8a",
     "sideBarSectionHeader.background": "#fbb1bd",
@@ -404,7 +404,7 @@
         "source.sass keyword.control"
       ],
       "settings": {
-        "foreground": "#f8e0e0"
+        "foreground": "#3240ff57"
       }
     },
     {
@@ -481,7 +481,7 @@
     {
       "scope": ["support.type"],
       "settings": {
-        "foreground": "#B2CCD6"
+        "foreground": "#f7ed9b"
       }
     },
     {
