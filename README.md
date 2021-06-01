@@ -1,4 +1,4 @@
-# Casseopeian Light Pink
+# Pink Lemonade VS Code Theme
 
 .・。.・゜ ✭・.・✫・゜・。.
 
@@ -8,7 +8,7 @@
 
 .・。.・゜ ✭・.・✫・゜・。.
 
-This was a fun first attempt at creating a custom theme and will be improved & maintained in my free time.
+This was a fun first attempt at creating a custom theme and will be maintained in my free time.
 
 ## Screenshots
 
