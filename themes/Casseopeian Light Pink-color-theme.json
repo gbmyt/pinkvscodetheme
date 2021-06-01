@@ -443,7 +443,7 @@
     {
       "scope": [
         "variable.parameter.function.language.special",
-        "variable.parameter"f
+        "variable.parameter"
       ],
       "settings": {
         "foreground": "#575757c7"
