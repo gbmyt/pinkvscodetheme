@@ -7,22 +7,22 @@
     "activityBar.border": "#fcb5c1",
     "activityBar.foreground": "#ffeef1",
     "activityBarBadge.background": "#F9BEC7",
-    "activityBarBadge.foreground": "#ff5c8a",
+    "activityBarBadge.foreground": "#b4536beb",
 
-    "badge.background": "#ff669450",
-    "badge.foreground": "#FF0A54",
+    "badge.background": "#F9BEC7",
+    "badge.foreground": "#b4536beb",
 
     // Breadcrumb Settings
-    "breadcrumb.activeSelectionForeground": "#FF0A54",
+    "breadcrumb.activeSelectionForeground": "#b4536beb",
     "breadcrumb.background": "#F7CAD0",
-    "breadcrumb.focusForeground": "#FF7096",
-    "breadcrumb.foreground": "#FF5C8A",
+    "breadcrumb.focusForeground": "#ffeef1",
+    "breadcrumb.foreground": "#b4536beb",
     "breadcrumbPicker.background": "#F7CAD0",
 
     // Button Settings
     "button.background": "#FF0A5450",
 
-    "contrastBorder": "#FF0A5440",
+    "contrastBorder": "#e98898",
 
     "debugToolBar.background": "#F7CAD0",
 
@@ -86,39 +86,57 @@
     "extensionButton.prominentHoverBackground": "#FF99AC",
 
     "focusBorder": "#e98898",
-    // "foreground": "#575757c7",
+    "foreground": "#575757c7",
 
     "gitDecoration.conflictingResourceForeground": "#FF85A1",
     "gitDecoration.deletedResourceForeground": "#FF99AC",
     "gitDecoration.ignoredResourceForeground": "#FF0A54",
     "gitDecoration.modifiedResourceForeground": "#fde9b6ff",
-    "gitDecoration.untrackedResourceForeground": "#FF85A1",
+    "gitDecoration.untrackedResourceForeground": "#fae0e4",
 
-    "input.background": "#FF99AC",
-    "input.border": "#ff0a534b",
+    "input.background": "#e98898",
+    "input.border": "#e98898",
     "input.foreground": "#ffffffbd",
-    "input.placeholderForeground": "#ff0a539d",
+    "input.placeholderForeground": "#ffeef1",
     "inputOption.activeBackground": "#FF709630",
-    "inputOption.activeBorder": "#FF709630",
-    "inputValidation.errorBorder": "#FF99AC50",
+    "inputOption.activeBorder": "#ffeef1",
+    "inputValidation.errorBorder": "#ff0000",
     "inputValidation.infoBorder": "#F9BEC7",
-    "inputValidation.warningBorder": "#FF85A150",
+    "inputValidation.warningBorder": "#ff0000",
+
+    // ======================================
+    //               TO-DOs
+    //      Keyboard Shortcut Settings
+    // ======================================
+    // Command Palette Keybinding Labels
+      // "keybindingLabel.background": "#b9acff",
+      // "keybindingLabel.foreground": "#6654A1",
+      // "keybindingLabel.border": "#6654A1",
+      // "keybindingLabel.bottomBorder": "#6654A1",
+
+      // Keyboard Shortcuts
+      // "keybindingTable.headerBackground": "#DABEFF",
+      // "keybindingTable.rowsBackground":"#b9acff",
 
     // File Explorer & Trees
+    // Selected file (in tree) when window focused
     "list.activeSelectionBackground": "#e98898",
     "list.activeSelectionForeground": "#fae0e4",
+    // Selected file (in tree) when window unfocused
+    "list.inactiveSelectionBackground": "#e98898",
+    "list.inactiveSelectionForeground": "#FF99AC",
+
     "list.focusBackground": "#FF99AC",
     "list.focusForeground": "#F9BEC7",
     "list.highlightForeground": "#FF0A54",
     "list.hoverBackground": "#e98898",
-    "list.hoverForeground": "#b4536beb",
-    "list.inactiveSelectionBackground": "#F9BEC7",
-    "list.inactiveSelectionForeground": "#FF0A54",
+    "list.hoverForeground": "#fae0e4",
     "list.warningForeground": "#FF85A1",
     "listFilterWidget.background": "#F7CAD030",
     "listFilterWidget.noMatchesOutline": "#F7CAD030",
     "listFilterWidget.outline": "#caf7ce30",
 
+    // Menu Bar (Not Visible on Mac)
     "menu.background": "#f7cad0f8",
     "menu.border": "#FF0A5450",
     "menu.foreground": "#FF7096",
@@ -169,24 +187,29 @@
 
     // Settings
     "settings.checkboxBackground": "#F7CAD0",
-    "settings.checkboxForeground": "#FF7096",
+    "settings.checkboxForeground": "#e98898",
     "settings.dropdownBackground": "#F7CAD0",
-    "settings.dropdownForeground": "#FF7096",
-    "settings.headerForeground": "#FF0A54",
+    "settings.dropdownForeground": "#b4536beb",
+    "settings.dropdownBorder":"#e98898",
+    "settings.headerForeground": "#b4536beb",
     "settings.modifiedItemIndicator": "#FF0A54",
     "settings.numberInputBackground": "#F7CAD0",
-    "settings.numberInputForeground": "#FF7096",
+    "settings.numberInputForeground": "#b4536beb",
+    "settings.numberInputBorder":"#e98898",
+    "settings.textInputBorder":"#e98898",
     "settings.textInputBackground": "#F7CAD0",
-    "settings.textInputForeground": "#FF7096",
+    "settings.textInputForeground": "#b4536beb",
 
+    // Side Bar Settings
     "sideBar.background": "#fcb5c1",
     "sideBar.border": "#e988987a",
-    "sideBar.foreground": "#ff5c8a",
-    "sideBarSectionHeader.background": "#fab1bc",
+    "sideBar.foreground": "#b4536beb",
+    "sideBarSectionHeader.background": "#e98898",
+    "sideBarSectionHeader.foreground": "#ffeef1",
     "sideBarSectionHeader.border": "#F7CAD060",
-    "sideBarSectionHeader.foreground": "#ff5c8a",
     "sideBarTitle.foreground": "#ff004c",
 
+    // (Bottom) Status Bar Settings
     "statusBar.background": "#e98898",
     "statusBar.border": "#F7CAD060",
     "statusBar.debuggingBackground": "#FF85A1",
@@ -198,7 +221,7 @@
     "statusBarItem.remoteForeground": "#F7CAD0",
 
     // File Tabs
-    "tab.activeBackground": "#fd7c92",
+    "tab.activeBackground": "#e98898",
     "tab.activeForeground": "#fae0e4",
     "tab.border": "#fcb5c1",
     // "tab.activeBorder": "#FF0A54",
@@ -240,14 +263,14 @@
     "terminalCommandDecoration.successBackground": "#FFECBB",
 
     // Links
-    "textLink.activeForeground": "#FF7096",
-    "textLink.foreground": "#da3a5dbe",
+    "textLink.activeForeground": "#b4536beb",
+    "textLink.foreground": "#ffeef1",
 
-    "titleBar.activeBackground": "#f7a2b0bd",
-    "titleBar.activeForeground": "#FF7096",
+    "titleBar.activeBackground": "#e98898",
+    "titleBar.activeForeground": "#ffeef1",
     "titleBar.border": "#F7CAD060",
-    "titleBar.inactiveBackground": "#f9bec7",
-    "titleBar.inactiveForeground": "#FF0A54",
+    "titleBar.inactiveBackground": "#ffeef1", // not sure I like the way this looks when unfocused
+    "titleBar.inactiveForeground": "#e98898",
     "tree.indentGuidesStroke": "#fab1bc",
 
     // Drop Shadows (Elements like Search & Replace)
@@ -348,12 +371,19 @@
     },
     {
       "scope": [
-        "punctuation.definition.tag.begin.html",
-        "punctuation.definition.tag.end.html",
         "entity.name.type.module.js"
       ],
       "settings": {
         "foreground": "#FF5C8A"
+      }
+    },
+    {
+      "scope": [
+        "punctuation.definition.tag.begin.html",
+        "punctuation.definition.tag.end.html"
+      ],
+      "settings": {
+        "foreground": "#ffeef1"
       }
     },
     {
@@ -400,7 +430,7 @@
     {
       "scope": ["text.html.derivative"],
       "settings": {
-        "foreground": "#A7A8AF"
+        "foreground": "#7c7c7cd7"
       }
     },
     {
@@ -416,6 +446,7 @@
     {
       "scope": ["entity.name.tag.html"],
       "settings": {
+        "foreground": "#B4536BEB",
         "fontStyle": "bold"
       }
     },
@@ -543,7 +574,6 @@
         "support.other.namespace.php",
         "markup.changed.git_gutter",
         "support.type.sys-types",
-        "entity.other.attribute-name.html"
       ],
       "settings": {
         "foreground": "#FF85A1"
