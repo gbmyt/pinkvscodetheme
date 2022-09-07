@@ -3,9 +3,9 @@
   "$schema": "vscode://schemas/color-theme",
   "type": "light",
   "colors": {
-    "activityBar.background": "#F9BEC7",
-    "activityBar.border": "#F7CAD060",
-    "activityBar.foreground": "#FF7096",
+    "activityBar.background": "#e98898",
+    "activityBar.border": "#fcb5c1",
+    "activityBar.foreground": "#fae0e4",
     "activityBarBadge.background": "#F9BEC7",
     "activityBarBadge.foreground": "#ff5c8a",
 
@@ -31,7 +31,7 @@
     "dropdown.border": "#F7CAD010",
 
     // Editor Settings
-    "editor.background": "#ffbdc8",
+    "editor.background": "#fcb5c1",
     "editor.findMatchBackground": "#F7CAD0",
     "editor.findMatchBorder": "#FF0A54",
     "editor.findMatchHighlightBackground": "#ff6a9793",
@@ -41,6 +41,9 @@
     "editor.selectionBackground": "#fab1bc",
     "editor.selectionHighlightBackground": "#FF0A546b",
     "editor.selectionHighlightBorder": "#f9bec7",
+    "editorBracketHighlight.foreground1": "#b4536beb",
+    "editorBracketHighlight.foreground2": "#e797fffb",
+    "editorBracketHighlight.unexpectedBracket.foreground": "#ff0000",
     "editorBracketMatch.background": "#F7CAD0",
     "editorBracketMatch.border": "#FF85A17f",
     "editorCursor.foreground": "#FF85A1",
@@ -56,7 +59,7 @@
     "editorIndentGuide.background": "#fab1bc",
     "editorInfo.foreground": "#F9BEC7",
     "editorLineNumber.activeForeground": "#F9BEC7",
-    "editorLineNumber.foreground": "#FF0A54c0",
+    "editorLineNumber.foreground": "#b4536beb",
     "editorLink.activeForeground": "#FF7096",
     "editorMarkerNavigation.background": "#FF709605",
     "editorOverviewRuler.border": "#F7CAD0",
@@ -79,13 +82,13 @@
     "extensionButton.prominentBackground": "#FF0A5490",
     "extensionButton.prominentHoverBackground": "#FF99AC",
 
-    "focusBorder": "#F7CAD000",
-    // "foreground": "#ffffff",
+    "focusBorder": "#e98898",
+    // "foreground": "#575757c7",
 
     "gitDecoration.conflictingResourceForeground": "#FF85A1",
     "gitDecoration.deletedResourceForeground": "#FF99AC",
     "gitDecoration.ignoredResourceForeground": "#FF0A54",
-    "gitDecoration.modifiedResourceForeground": "#575757c7",
+    "gitDecoration.modifiedResourceForeground": "#fde9b6ff",
     "gitDecoration.untrackedResourceForeground": "#FF85A1",
 
     "input.background": "#FF99AC",
@@ -99,13 +102,13 @@
     "inputValidation.warningBorder": "#FF85A150",
 
     // File Explorer & Trees
-    "list.activeSelectionBackground": "#F7CAD0",
-    "list.activeSelectionForeground": "#FF0A54",
+    "list.activeSelectionBackground": "#e98898",
+    "list.activeSelectionForeground": "#fae0e4",
     "list.focusBackground": "#FF99AC",
     "list.focusForeground": "#F9BEC7",
     "list.highlightForeground": "#FF0A54",
-    "list.hoverBackground": "#fab1bc",
-    "list.hoverForeground": "#F7CAD0",
+    "list.hoverBackground": "#e98898",
+    "list.hoverForeground": "#b4536beb",
     "list.inactiveSelectionBackground": "#F9BEC7",
     "list.inactiveSelectionForeground": "#FF0A54",
     "list.warningForeground": "#FF85A1",
@@ -135,12 +138,14 @@
     "notifications.background": "#F7CAD0",
     "notifications.foreground": "#FF7096",
 
-    // Terminal
-    "panel.background": "#fab1bc",
-    "panel.border": "#F7CAD0",
-    "panelTitle.activeBorder": "#ce1f53",
-    "panelTitle.activeForeground": "#ce1f53",
+    // Terminal Title Bar Settings
+    "panel.background": "#e98898",
+    "panel.border": "#e98898",
+    "panelTitle.activeBorder": "#fde9b6ff",
+    "panelTitle.activeForeground": "#fde9b6ff",
     "panelTitle.inactiveForeground": "#fae0e4",
+
+    // Peek View Settings
     "peekView.border": "#FF0A5450",
     "peekViewEditor.background": "#FF709605",
     "peekViewEditor.matchHighlightBackground": "#FF0A5450",
@@ -172,7 +177,7 @@
     "settings.textInputForeground": "#FF7096",
 
     "sideBar.background": "#fcb5c1",
-    "sideBar.border": "#fab1bc",
+    "sideBar.border": "#e988987a",
     "sideBar.foreground": "#ff5c8a",
     "sideBarSectionHeader.background": "#fab1bc",
     "sideBarSectionHeader.border": "#F7CAD060",
@@ -190,13 +195,13 @@
     "statusBarItem.remoteForeground": "#F7CAD0",
 
     // File Tabs
-    "tab.activeBackground": "#fab1bc",
-    "tab.activeBorder": "#FF0A54",
-    "tab.activeForeground": "#FF7096",
+    "tab.activeBackground": "#fd7c92",
+    "tab.activeForeground": "#fae0e4",
+    "tab.border": "#fcb5c1",
+    // "tab.activeBorder": "#FF0A54",
     "tab.activeModifiedBorder": "#FF0A54",
-    "tab.border": "#F7CAD0",
     "tab.inactiveBackground": "#FF0A5420",
-    "tab.inactiveForeground": "#FF7096af",
+    "tab.inactiveForeground": "#b4536beb",
     "tab.unfocusedActiveBorder": "#FF0A54",
     "tab.unfocusedActiveBackground": "#FF0A5440",
     "tab.unfocusedActiveForeground": "#FF7096",
@@ -205,6 +210,7 @@
 
     // Terminal Text Settings
     "terminal.foreground": "#fd7c92",
+    "terminal.background":"#fcb5c1", // Buggy, #483d6f alt color
     "terminal.ansiBlack": "#F7CAD0",
     "terminal.ansiBlue": "#F9BEC7",
     "terminal.ansiBrightBlack": "#FF0A54",
@@ -216,13 +222,21 @@
     "terminal.ansiBrightWhite": "#F7CAD0",
     "terminal.ansiBrightYellow": "#FF85A1",
     "terminal.ansiCyan": "#FAFAFA",
+    // modified git resource in terminal
     "terminal.ansiGreen": "#FF0A54",
     "terminal.ansiMagenta": "#FF85A1",
+    // unstaged in git terminal
     "terminal.ansiRed": "#FF99AC",
     "terminal.ansiWhite": "#F7CAD0",
     "terminal.ansiYellow": "#FF85A1",
     "terminalCursor.background": "#F7CAD0",
-    "terminalCursor.foreground": "#ffe4a1",
+    "terminalCursor.foreground": "#eadaff",
+
+    // Terminal Dots
+    "terminalCommandDecoration.defaultBackground": "#fae0e4" ,
+    "terminalCommandDecoration.successBackground": "#FFECBB",
+
+    // Links
     "textLink.activeForeground": "#FF7096",
     "textLink.foreground": "#da3a5dbe",
 
@@ -233,7 +247,7 @@
     "titleBar.inactiveForeground": "#FF0A54",
     "tree.indentGuidesStroke": "#fab1bc",
 
-    "widget.shadow": "#F7CAD030",
+    "widget.shadow": "#e98898",
 
     // Welcome Page
     "welcomePage.background": "#ffbdc8",
@@ -354,7 +368,7 @@
     {
       "scope": ["punctuation.definition", "string.quoted.single.scss"],
       "settings": {
-        "foreground": "#A7A8AF"
+        "foreground": "#7C7C7CD7"
       }
     },
     {
@@ -370,11 +384,11 @@
         "punctuation.definition.comment.scss",
         "punctuation.definition.comment.js",
         "punctuation.definition.comment.html",
-        "comment.block.html"
+        "comment.block"
       ],
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#ff0a536e"
+        "foreground": "#7c7c7cd7"
       }
     },
     {
@@ -411,13 +425,21 @@
     {
       "scope": [
         "variable.other.object.js",
-        "storage.type.js",
         "string.other.link.title.markdown",
         "variable.other.readwrite.js",
         "variable.other.property.js"
       ],
       "settings": {
-        "foreground": "#ff0a54",
+        "foreground": "#fdecf8",
+      }
+    },
+    {
+      "scope": [
+        "storage.type.js"
+      ],
+      "settings": {
+        "foreground": "#ffecbb",
+        "fontStyle": "bold"
       }
     },
     {
@@ -442,7 +464,7 @@
         "source.sass keyword.control"
       ],
       "settings": {
-        "foreground": "#FF0A536E"
+        "foreground": "#da698f"
       }
     },
     {
@@ -532,7 +554,7 @@
         "source.postcss support.type.property-name"
       ],
       "settings": {
-        "foreground": "#ff99ac"
+        "foreground": "#ce1f53"
       }
     },
     {
