@@ -15,7 +15,7 @@
     // Breadcrumb Settings
     "breadcrumb.activeSelectionForeground": "#b4536beb",
     "breadcrumb.background": "#F7CAD0",
-    "breadcrumb.focusForeground": "#ffeef1",
+    "breadcrumb.focusForeground": "#ffe39d",
     "breadcrumb.foreground": "#b4536beb",
     "breadcrumbPicker.background": "#F7CAD0",
 
@@ -36,7 +36,7 @@
     // Editor Settings
     "editor.background": "#fcb5c1",
     "editor.findMatchBackground": "#F7CAD0",
-    "editor.findMatchBorder": "#FF0A54",
+    "editor.findMatchBorder": "#F0BE68",
     "editor.findMatchHighlightBackground": "#ff6a9793",
     "editor.findMatchHighlightBorder": "#F7CAD030",
     "editor.foreground": "#FF7096",
@@ -67,7 +67,7 @@
     "editorMarkerNavigation.background": "#FF709605",
     "editorOverviewRuler.border": "#F7CAD0",
     "editorOverviewRuler.errorForeground": "#FF99AC40",
-    "editorOverviewRuler.findMatchForeground": "#FF0A54",
+    "editorOverviewRuler.findMatchForeground": "#cf8694",
     "editorOverviewRuler.infoForeground": "#F9BEC7",
     "editorOverviewRuler.warningForeground": "#FF85A170",
     "editorRuler.foreground": "#fab1bc",
@@ -91,7 +91,7 @@
     "gitDecoration.conflictingResourceForeground": "#FF85A1",
     "gitDecoration.deletedResourceForeground": "#FF99AC",
     "gitDecoration.ignoredResourceForeground": "#FF0A54",
-    "gitDecoration.modifiedResourceForeground": "#fde9b6ff",
+    "gitDecoration.modifiedResourceForeground": "#ffeef1",
     "gitDecoration.untrackedResourceForeground": "#fae0e4",
 
     "input.background": "#e98898",
@@ -109,14 +109,14 @@
     //      Keyboard Shortcut Settings
     // ======================================
     // Command Palette Keybinding Labels
-      // "keybindingLabel.background": "#b9acff",
-      // "keybindingLabel.foreground": "#6654A1",
-      // "keybindingLabel.border": "#6654A1",
-      // "keybindingLabel.bottomBorder": "#6654A1",
+      "keybindingLabel.background": "#e98898",
+      "keybindingLabel.foreground": "#ffeef1",
+      "keybindingLabel.border": "#b4536beb",
+      "keybindingLabel.bottomBorder": "#b4536b9a",
 
       // Keyboard Shortcuts
-      // "keybindingTable.headerBackground": "#DABEFF",
-      // "keybindingTable.rowsBackground":"#b9acff",
+      "keybindingTable.headerBackground": "#e98898",
+      // "keybindingTable.rowsBackground":"#e98898",
 
     // File Explorer & Trees
     // Selected file (in tree) when window focused
@@ -128,7 +128,7 @@
 
     "list.focusBackground": "#FF99AC",
     "list.focusForeground": "#F9BEC7",
-    "list.highlightForeground": "#FF0A54",
+    "list.highlightForeground": "#b4536beb",
     "list.hoverBackground": "#e98898",
     "list.hoverForeground": "#fae0e4",
     "list.warningForeground": "#FF85A1",
@@ -153,7 +153,7 @@
     "minimapGutter.deletedBackground": "#FF85A1",
     "minimapGutter.modifiedBackground": "#FF0A54",
     "minimapSlider.activeBackground": "#FF0A54b0",
-    "minimapSlider.background": "#FF0A5480",
+    "minimapSlider.background": "#e98898",
     "minimapSlider.hoverBackground": "#FF0A54a0",
     "notificationLink.foreground": "#FF0A54",
     "notifications.background": "#F7CAD0",
@@ -162,9 +162,9 @@
     // Terminal Title Bar Settings
     "panel.background": "#e98898",
     "panel.border": "#e98898",
-    "panelTitle.activeBorder": "#fde9b6ff",
-    "panelTitle.activeForeground": "#fde9b6ff",
-    "panelTitle.inactiveForeground": "#fae0e4",
+    "panelTitle.activeBorder": "#ffeef1",
+    "panelTitle.activeForeground": "#ffeef1",
+    "panelTitle.inactiveForeground": "#ffeef1",
 
     // Peek View Settings
     "peekView.border": "#FF0A5450",
@@ -183,7 +183,7 @@
     "scrollbarSlider.activeBackground": "#FF0A54cc",
     "scrollbarSlider.background": "#e98898",
     "scrollbarSlider.hoverBackground": "#e98898",
-    "selection.background": "#FF0A54",
+    "selection.background": "#6BC6B9",
 
     // Settings
     "settings.checkboxBackground": "#F7CAD0",
@@ -207,7 +207,7 @@
     "sideBarSectionHeader.background": "#e98898",
     "sideBarSectionHeader.foreground": "#ffeef1",
     "sideBarSectionHeader.border": "#F7CAD060",
-    "sideBarTitle.foreground": "#ff004c",
+    "sideBarTitle.foreground": "#b4536beb",
 
     // (Bottom) Status Bar Settings
     "statusBar.background": "#e98898",
@@ -215,9 +215,9 @@
     "statusBar.debuggingBackground": "#FF85A1",
     "statusBar.debuggingForeground": "#F7CAD0",
     "statusBar.foreground": "#FAE0E4",
-    "statusBar.noFolderBackground": "#FF7096",
+    "statusBar.noFolderBackground": "#e98898",
     "statusBarItem.hoverBackground": "#FF0A5420",
-    "statusBarItem.remoteBackground": "#FF0A54",
+    "statusBarItem.remoteBackground": "#b4536beb",
     "statusBarItem.remoteForeground": "#F7CAD0",
 
     // File Tabs
@@ -260,8 +260,12 @@
 
     // Terminal Dots
     "terminalCommandDecoration.defaultBackground": "#fae0e4" ,
-    "terminalCommandDecoration.successBackground": "#FFECBB",
+    "terminalCommandDecoration.successBackground": "#ffe39d",
 
+    // ======================================
+    //               TO-DOs
+    //     Welcome Page Link Colors
+    // ======================================
     // Links
     "textLink.activeForeground": "#b4536beb",
     "textLink.foreground": "#ffeef1",
@@ -383,7 +387,7 @@
         "punctuation.definition.tag.end.html"
       ],
       "settings": {
-        "foreground": "#ffeef1"
+        "foreground": "#ffe39d"
       }
     },
     {
@@ -474,7 +478,7 @@
         "storage.type.js"
       ],
       "settings": {
-        "foreground": "#ffecbb",
+        "foreground": "#ffe39d",
         "fontStyle": "bold"
       }
     },
@@ -485,7 +489,7 @@
         "punctuation.definition.string.end",
        ],
       "settings": {
-        "foreground": "#ffeef1",
+        "foreground": "#ffe39d",
         "fontStyle": "italic"
       }
     },
@@ -535,7 +539,7 @@
         "constant.language"
       ],
       "settings": {
-        "foreground": "#ffeef1"
+        "foreground": "#ffe39d"
       }
     },
     {
@@ -699,7 +703,7 @@
         "punctuation.definition.list_item.markdown"
       ],
       "settings": {
-        "foreground": "#ffeef1"
+        "foreground": "#ffe39d"
       }
     },
     {
