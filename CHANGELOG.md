@@ -6,11 +6,11 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [Unreleased]
 - Diff Editor Color Update
-[x] Updated core color palette
-[x] Updated Markup file colors
-[x] Basic changes to: Terminal, Side Bar, and Activity Bar colors
 
 ## 0.2.14
+- Updated Core Color Palette to use more high-contrast colors for syntax highlighting, and an overall darker shade of pink for the editor background.
 
+- Made changes to: Terminal, Side Bar, Mini-map Gutter Colors.
+- Changed Hot Pink elements to Blush Pink > Activity Bar, Command Palette, and Source Control areas.
 ## 0.0.1
 - Initial release
